@@ -25,9 +25,11 @@ object Lists {
    */
     def sum(xs: List[Int]): Int = {
       if (xs ==null)
-          throw new IllegalArgumentException("list can not be null.")
+        return 0
+          //throw new IllegalArgumentException("list can not be null.")
       if (xs.length == 0)
-          throw new NoSuchElementException("list is empty")
+          //throw new NoSuchElementException("list is empty")
+          return 0
           
       var sum = 0
       for( a <- xs ){

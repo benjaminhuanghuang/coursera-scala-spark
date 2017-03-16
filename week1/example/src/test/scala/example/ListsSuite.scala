@@ -117,22 +117,24 @@ import org.scalatest.junit.JUnitRunner
     assert(sum(List(1,2,0)) === 3)
   }
   
-  test(" sum() throws an exception if its list is null") {
-    intercept[IllegalArgumentException] {
-      sum(null)
-    }
-  }
-  
-//  test("sum of null") {
-//    assert(sum(null) === 0)
+//  test(" sum() throws an exception if its list is null") {
+//    intercept[IllegalArgumentException] {
+//      sum(null)
+//    }
 //  }
   
-  test("sum() throws an exception if list is empty") {
-    intercept[NoSuchElementException] {
-      sum(List())
-    }
+  test("sum of null") {
+    assert(sum(null) === 0)
   }
-
+  
+//  test("sum() throws an exception if list is empty") {
+//    intercept[NoSuchElementException] {
+//      sum(List())
+//    }
+//  }
+  test("sum of empty list") {
+    assert(sum(List()) === 0)
+  }
   
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
