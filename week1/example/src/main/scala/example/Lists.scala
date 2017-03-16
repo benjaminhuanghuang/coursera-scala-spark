@@ -25,9 +25,9 @@ object Lists {
    */
     def sum(xs: List[Int]): Int = {
       if (xs ==null)
-          return 0
+          throw new IllegalArgumentException("list can not be null.")
       if (xs.length == 0)
-          return 0
+          throw new NoSuchElementException("list is empty")
           
       var sum = 0
       for( a <- xs ){
@@ -51,9 +51,9 @@ object Lists {
    */
     def max(xs: List[Int]): Int = {
       if (xs ==null)
-          return 0
+          throw new IllegalArgumentException("list can not be null.")
       if (xs.length == 0)
-          return 0
+          throw new NoSuchElementException("list is empty");
       var max_value = xs(0)
       //for (i <- xs.indices)
       for (i <- 1 until  xs.length)

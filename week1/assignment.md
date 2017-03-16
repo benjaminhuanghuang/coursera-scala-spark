@@ -7,7 +7,8 @@
 
     control+d   go back to sbt
     >
-
+    > exit
+    
 ## import example project into Eclipse
     > eclipse    # create a Eclipse project from sbt
     import project into Eclipse
@@ -26,4 +27,7 @@
     - Right-click this file in eclipse and chose "Run As" - "JUnit Test"
 
 ## Submmit
-    submit benjaminhuanghuang@gmail.com 9atc1ywgxP6NpjjP
+    $ cd example   #  the folder of the project to be submmited
+    $ sbt
+    > submit benjaminhuanghuang@gmail.com 9atc1ywgxP6NpjjP
+    > exit
