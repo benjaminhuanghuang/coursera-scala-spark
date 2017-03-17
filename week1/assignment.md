@@ -7,7 +7,7 @@
 
     control+d   go back to sbt
     >
-    > exit
+    > exit    # quit from sbt
     
 ## import example project into Eclipse
     > eclipse    # create a Eclipse project from sbt
@@ -30,4 +30,4 @@
     $ cd example   #  the folder of the project to be submmited
     $ sbt
     > submit benjaminhuanghuang@gmail.com 9atc1ywgxP6NpjjP
-    > exit
+    > exit   #quit from sbt

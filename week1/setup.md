@@ -5,6 +5,9 @@
     http://www.scala-sbt.org/release/docs/Setup.html
     $ brew install sbt  
     $ sat about     
+or
+## install scala
+    $ brew install scala
     
 ## Eclipse for scala
     http://scala-ide.org/download/sdk.html
